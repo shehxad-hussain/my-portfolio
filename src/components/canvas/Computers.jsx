@@ -1,12 +1,10 @@
-/* eslint-disable react/no-unknown-property */
-// eslint-disable-next-line no-unused-vars
+
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-// eslint-disable-next-line react/prop-types
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
@@ -14,7 +12,6 @@ const Computers = ({ isMobile }) => {
     <mesh>
       <hemisphereLight intensity={0.15} groundColor='black' />
       <spotLight
-        // eslint-disable-next-line react/no-unknown-property
         position={[-20, 50, 10]}
         angle={0.12}
         penumbra={1}
