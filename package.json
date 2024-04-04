@@ -13,11 +13,7 @@
     "@fontsource/outfit": "^5.0.8",
     "@fontsource/roboto": "^5.0.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.1",
-    "react-tilt": "^0.1.4",
-    "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.149.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -30,3 +26,7 @@
     "vite": "^4.4.5"
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
