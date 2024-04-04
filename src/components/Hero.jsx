@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -15,7 +16,6 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-
             Hi, I'm <span className='text-[#915EFF]'>Shehzad</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
@@ -47,6 +47,5 @@ const Hero = () => {
     </section>
   );
 };
-
 
 export default Hero;
